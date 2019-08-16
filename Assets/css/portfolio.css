@@ -217,8 +217,6 @@
 @media (max-width: 575.98px) {
   .project-card {
     padding: 8rem 6rem 1rem 6rem;
-    
-
   }
 }
 
@@ -226,8 +224,6 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .project-card {
     padding: 8rem 6rem 3rem 6rem;
-    
-
   }
 }
 
@@ -249,25 +245,11 @@
 @media (min-width: 1200px) {
   .row {
     padding: 5rem 0rem;
-
   }
 }
 
 
-/* @media (min-width: 576px) and (max-width: 767.98px) {
-  row {
-    padding: 5rem 0rem;
 
-  }
-} */
-
-
-/* @media (max-width: 575.98px) {
-  .project-card {
-    padding: 10rem 4rem 5rem 4rem;
-
-  }
-} */
 
 .projects-section {
   padding: 5rem 0 0;
