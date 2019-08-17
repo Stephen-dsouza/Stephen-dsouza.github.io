@@ -216,7 +216,7 @@
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .project-card {
-    padding: 8rem 6rem 1rem 6rem;
+    padding: 8rem 6rem 1rem 3rem;
   }
 }
 
