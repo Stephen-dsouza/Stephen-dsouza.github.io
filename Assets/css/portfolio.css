@@ -270,8 +270,8 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .row {
-    padding: 5rem 0rem;
+  .project-card {
+    padding: 8rem 3rem 1rem 3rem;
   }
 }
 
