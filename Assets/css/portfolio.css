@@ -1,13 +1,13 @@
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: rgb(198, 217, 219);
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: rgba(27, 158, 233, 0.5);
+  border: 1px solid #1e347a;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -51,7 +51,7 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(27, 158, 233, 0.5);
   }
 
   #mainNav .nav-link:hover {
@@ -77,15 +77,15 @@
   }
 
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: rgba(27, 158, 233, 0.5);
   }
 
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: rgba(27, 158, 233, 0.5);
   }
 
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: rgba(27, 158, 233, 0.5);
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
@@ -249,8 +249,6 @@
 }
 
 
-
-
 .projects-section {
   padding: 5rem 0 0;
   background: linear-gradient(to bottom, rgba(241, 242, 247, 0.1) 0%, rgba(38, 52, 70, 0.5) 75%, #0e1413 100%), url("../Images/projects1.jpg");
@@ -284,7 +282,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #0c2444;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -317,13 +315,13 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #1380be;
 }
 
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #255875;
 }
 
 .bg-black {
@@ -331,13 +329,17 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #104d86 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #4f8fa8 !important;
 }
 
 footer {
   padding: 5rem 0;
+  background: linear-gradient(to bottom, rgba(37, 105, 117, 0.1) 0%, rgba(38, 52, 70, 0.5) 75%, #061a2c 100%), url("../Images/footer.jpg");
+  /* background-color: #0b2b50; */
+  color: #0c3344;
+  font-display: 50px;
 }
