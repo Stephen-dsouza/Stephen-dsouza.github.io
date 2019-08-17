@@ -213,6 +213,7 @@
 }
 .card-img-top{
   /* position: relative; */
+  image-orientation: 90deg;
   width: 100%;
   height: auto;
   /* min-height: 6rem; */
@@ -222,17 +223,21 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  
 }
 
 .card-img-top h6 {
+  position: relative;
+  padding-left: 2rem;
   /* font-family: 'Varela Round'; */
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2.5rem;
   letter-spacing: 0.5rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.171));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
+  background-clip: text; 
+  font-weight: bolder;
 }
 
 /*  Extra small devices (portrait phones, less than 576px) */
