@@ -206,7 +206,12 @@
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
+
+}
+
+.skills h1{
+  color: #fff;;
 }
 
 .projects-section {
